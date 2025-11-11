@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações básicas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página -->
+    <title>Isabele Bivar • Desenvolvedora Front-End</title>
+
+    <!-- Fontes: Montserrat + Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link do CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAV (fica sticky com efeito glass futurista) -->
+    <nav class="nav-bar">
+        <!-- Logo -->
+        <a href="#top" class="logo-link">
+            <img src="img/logomarcaazul.png" alt="Logomarca Isabele Bivar">
+            <span class="logo-text">  "Código que Inspira. Experiências que Transformam."</span>
+        </a>
+
+        <!-- Botão do menu mobile -->
+        <button class="menu-btn" aria-label="Abrir menu mobile">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!-- Links do menu desktop -->
+        <ul class="nav-links">
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Menu Mobile (desliza de baixo para cima) -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#sobre" class="mobile-link">Sobre Mim</a></li>
+            <li><a href="#projetos" class="mobile-link">Projetos</a></li>
+            <li><a href="#contato" class="mobile-link">Contato</a></li>
+        </ul>
+    </div>
+
+    <!-- HERO -->
+    <header id="top" class="hero-section-header">
+        <h1>Olá, eu sou Isabele Bivar</h1>
+        <p>Desenvolvedora Front-End sempre em busca de aprendizado.</p>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+   <section id="sobre" class="section-sobre">
+        <h2>Sobre mim</h2>
+        <div class="sobre-conteudo">
+            <div class="sobre-texto">
+                <p>Sou apaixonada por tecnologia e estou aprendendo a criar sites incríveis com HTML, CSS e JavaScript.</p>
+                <p>Meu objetivo é transformar ideias em experiências digitais envolventes e funcionais.</p>
+                <p>Estudante dos cursos de Análise e Desenvolvimento de Sistemas e Segurança Cibernética.</p>
+                <p>Peça já um orçamento para o seu projeto!</p>
+            </div>
+            <div class="sobre-imagem">
+                <img src="img/terno rose.jpg" alt="Isabele Bivar em terno rose" class="perfil-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+
+        <ul class="lista-projetos">
+            <li>
+                <a href="https://mfseguros.seg.br" target="_blank" class="card-projeto">
+                    <img src="img/mfseguros1.png" alt="Site da Corretora de Seguros">
+                    <div class="card-info">
+                        <h3>Site para corretora de seguros</h3>
+                        <p>HTML, CSS, JavaScript. Projeto de cliente real.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://imbivar-cyber.github.io/Padaria-do-Bairro/" target="_blank" class="card-projeto">
+                    <img src="img/padariadobairro.png" alt="Projeto Padaria do Bairro">
+                    <div class="card-info">
+                        <h3>Projeto Padaria do Bairro</h3>
+                        <p>Demonstração de landing page moderna e responsiva.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://imbivar-cyber.github.io/Projeto-Pedido-online/" target="_blank" class="card-projeto">
+                    <img src="img/pedidosonline.png" alt="Projeto Pedido Online">
+                    <div class="card-info">
+                        <h3>Projeto Pedido Online</h3>
+                        <p>Funcionalidade complementar para experiência do usuário.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://imbivar-cyber.github.io/Projeto-Carrinho-de-Compras/" target="_blank" class="card-projeto">
+                    <img src="img/Projetocarrinho.png" alt="Projeto Carrinho de Compras">
+                    <div class="card-info">
+                        <h3>Projeto Carrinho de Compras</h3>
+                        <p>Simulação de e-commerce com manipulação de DOM.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://imbivar-cyber.github.io/Jogo-da-Velha-/" target="_blank" class="card-projeto">
+                    <img src="img/jogodavelha.png" alt="Projeto Jogo da Velha">
+                    <div class="card-info">
+                        <h3>Projeto Jogo da Velha</h3>
+                        <p>Jogo interativo criado com HTML, CSS e JavaScript puro.</p>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://imbivar-cyber.github.io/Calculadora/" target="_blank" class="card-projeto">
+                    <img src="img/calculadora.png" alt="Projeto Calculadora">
+                    <div class="card-info">
+                        <h3>Projeto Calculadora</h3>
+                        <p>Aplicação funcional com foco na lógica JavaScript.</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        
+        <form action="mailto:imbivar@gmail.com" method="post" enctype="text/plain" class="form-contato">
+            <input type="text" name="Nome" placeholder="Seu Nome" required>
+            <input type="email" name="Email" placeholder="Seu Email" required>
+            <textarea name="Mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+            <button type="submit" class="submit-btn">Enviar Mensagem</button>
+        </form>
+        
+        <div class="contato-info-extra">
+            <p>Entre em contato! Utilize o formulário ou use o contato a sua escolha: <a href="mailto:imbivar@gmail.com">imbivar@gmail.com</a></p>
+            </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 - Isabele Bivar. Todos os direitos reservados.</p>
+    </footer>
+
+    <button id="backToTopBtn" title="Voltar ao Topo">↑</button>
+
+    <a href="https://wa.me/5521994245865" target="_blank" class="whatsapp-flutuante">
+        <img src="img/zap neon preto.png" alt="WhatsApp">
+    </a>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
